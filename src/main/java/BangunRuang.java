@@ -5,7 +5,7 @@ public class BangunRuang {
         this.name = name;
     }
     public void input_Nilai(){
-        System.out.println("Menghitung Luas dan volume Bangun Ruang");
+        System.out.println("Menghitung Luas dan volume");
     }
     public void luas_Permukaan() {
         System.out.println("--Luas--");
