@@ -4,7 +4,6 @@ public class BangunRuang {
     public BangunRuang(String name){
         this.name = name;
     }
-
     public void input_Nilai(){
         System.out.println("Menghitung Luas dan volume Bangun Ruang");
     }
@@ -14,10 +13,10 @@ public class BangunRuang {
     public void volume(){
         System.out.println("--Volume--");
     }
-    public void setName(String name){
-        this.name = name;
-    }
     public String getName(){
         return name;
+    }
+    public void setName(String name){
+        this.name = name;
     }
 }

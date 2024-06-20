@@ -5,6 +5,8 @@ public class Balok extends BangunRuang{
     private double lebar;
     private double panjang;
 
+
+
     public Balok(String name) {
         super(name);
     }
